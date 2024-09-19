@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="contactstyle.css" type="text/css">
+    <title>Contact Us</title>
+</head>
+<body>
+
+    <ul>
+        <li><a href="#index">Home Page</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a class="active" href="#about">About Us</a></li>
+    </ul>
+
+    <div id="div1">
+
+    <img src="book.jpg" alt="Book" class="center">
+
+    </div>
+
+    <h1><b>Fill Below to Contact Us</b></h1>
+
+    <div class="formbox">
+
+    <form action="mailto:ii@cones.ca" method="post">
+
+        <label>Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label>Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label>Booking Date:</label>
+        <input type="date" id="bookingdate" name="bookingdate"><br>
+
+        <label>Booking Time:</label>
+        <input type="time" id="bookingtime" name="bookingtime"><br>
+
+        <label>Upload File:</label>
+        <input type="file" id="uploadfile" name="uploadfile"><br><br>
+
+        <input type="submit" name="submit" id="submit">
+        <input type="reset" name="reset" id="reset">
+        
+    </form>
+    
+    </div>
+</body>
+<footer>
+    <div class="footerbox">&copy; 2024</div>
+</footer>
+</html>
